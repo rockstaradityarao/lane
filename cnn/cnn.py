@@ -1,3 +1,5 @@
+# @Author  : Aditya Rao
+# @File    : cnn.py
 import cv2
 import numpy as np
 from .config import global_config
