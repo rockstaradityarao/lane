@@ -1,3 +1,5 @@
+# @Author  : Aditya Rao
+# @File    : runBatch.py
 import sys
 import os
 from PIL import Image

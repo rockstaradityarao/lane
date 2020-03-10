@@ -1,3 +1,5 @@
+# @Author  : Aditya Rao
+# @File    : runOne.py
 import sys
 import os
 from PIL import Image
@@ -12,7 +14,7 @@ import glob
 # process arguments
 debug=True
 my_program = sys.argv[0]
-src_dir = sys.argv[1] if (len(sys.argv) > 1) else './data/1492626904933064222/4.jpg'
+src_dir = sys.argv[1] if (len(sys.argv) > 1) else './data/tmp/0.jpg'
 model_dir = sys.argv[2] if (len(sys.argv) > 2) else './model/tusimple_lanenet_vgg/tusimple_lanenet_vgg.ckpt'
 hough_dir = sys.argv[3] if (len(sys.argv) > 3) else src_dir + '_hough'
 cnn_dir = sys.argv[4] if (len(sys.argv) > 4) else src_dir + '_cnn'
